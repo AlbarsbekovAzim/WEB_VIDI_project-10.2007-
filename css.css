@@ -1,0 +1,67 @@
+.description {
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(0deg, #8D60F1, #18467A);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    margin: 0;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.backToUp {
+    width: 100vw;
+    height: 5vh;
+}
+.dc {
+    width: 100vw;
+    height: 5vh;
+    background-color: #000;
+    opacity: 0.15;
+    margin-top: -5vh;
+}
+.footer {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin-top: 5vh;
+}
+#geoLogo {
+    width: 1rem;
+    height: 1.2rem;
+    margin-right: 1vw;
+}
+#location {
+    display: flex;
+    align-items: center;
+}
+.aboutUs {
+    margin-top: 1vh;
+    font-size: 1.3rem;
+}
+.footerElement {
+    margin: 2vh auto auto 2vw;
+}
+.contacts {
+    margin-top: 5vh;
+}
+.toDarkerBot {
+    background: #000;
+    opacity: 0.15;
+    width: 100vw;
+    height: 8vh;
+    ;
+}
