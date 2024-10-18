@@ -57,6 +57,7 @@ img {
 }
 .contacts {
     margin-top: 5vh;
+    font-size: 1.7rem;
 }
 .toDarkerBot {
     background: rgba(0, 0, 0, 0.15);
@@ -97,4 +98,60 @@ img[alt='ComLogo'] {
 }
 .boldOfAboutUs {
     font-weight: 700;
+}
+.blockOfRequest {
+    background-color: #fcfcfc;
+    background-image: url(imgs/Group\ 295.png);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    font-family: 'Exo 2';
+}
+.blockOfRequest * {
+    margin-top: 5vh;
+}
+.blockOfRequest :last-child {
+    margin-bottom: 5vh;
+}
+.getConsultation {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.violetText {
+    color: #8d60f1;
+}
+.descriptionOfConsultation {
+    font-size: 1.3rem;
+    max-width: 60vw;
+    text-align: center;
+}
+.workWithServices {
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 40vw;
+}
+.buttonLeaveARequest {
+    width: 20vw;
+    height: 8vh;
+    font-size: 1.3rem;
+    font-family: 'Exo 2';
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(180deg, #8D60F1, #6c3cd9);
+    border: 0;
+    border-radius: 4vh;
+}
+.buttonLeaveARequest::before {
+    background: rgba(0, 0, 0, 1);
+}
+.buttonLeaveARequest:hover {
+    background: linear-gradient(180deg, #714dc1, #5630ae)
+}
+.buttonLeaveARequest:active {
+    background: linear-gradient(180deg, #553a91, #412482);
 }
