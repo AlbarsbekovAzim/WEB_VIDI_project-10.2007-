@@ -137,21 +137,72 @@ img[alt='ComLogo'] {
 }
 .buttonLeaveARequest {
     width: 20vw;
-    height: 8vh;
+    height: 7vh;
     font-size: 1.3rem;
     font-family: 'Exo 2';
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     background: linear-gradient(180deg, #8D60F1, #6c3cd9);
     border: 0;
-    border-radius: 4vh;
-}
-.buttonLeaveARequest::before {
-    background: rgba(0, 0, 0, 1);
+    border-radius: 3.5vh;
 }
 .buttonLeaveARequest:hover {
     background: linear-gradient(180deg, #714dc1, #5630ae)
 }
 .buttonLeaveARequest:active {
     background: linear-gradient(180deg, #553a91, #412482);
+}
+.commissionsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60%;
+    max-width: 90%;
+    font-family: 'Exo 2';
+}
+.commissionsList span {
+    font-weight: bold;
+}
+.commissionsList img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1vw;
+}
+.commissionsList > div {
+    display: flex;
+    align-items: center;
+}
+.AutomationCommissionAndPartnersBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AutomationCommissionAndPartnersBlock img[alt='vidiGraph'], .AutomationCommissionAndPartnersBlock img[alt='companies'] {
+    width: 60vw;
+    height: auto;
+}
+.AuCoPaBlockPartText {
+    font-family: 'Exo 2';
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 5vh auto;
+}
+.CommissionPartOfBlock {
+    display: flex;
+    flex-direction: row;
+    background-color: #ebf4ff;
+    width: 60vw;
+    margin: 12vh auto 3vh;
+    position: relative;
+    border-radius: 1vh;
+}
+.CommissionPartOfBlock > img {
+    margin-bottom: -8vh;
+    margin-left: 0;
+    width: 25vw;
+    height: auto;
+    transform: translate(3vw, -8vh);
+}
+.CommissionPartOfBlock > div {
+    margin-left: 5vw;
 }
