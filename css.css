@@ -156,7 +156,7 @@ img[alt='ComLogo'] {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 60%;
+    height: 70%;
     max-width: 90%;
     font-family: 'Exo 2';
 }
@@ -206,3 +206,77 @@ img[alt='ComLogo'] {
 .CommissionPartOfBlock > div {
     margin-left: 5vw;
 }
+.commissionsListText {
+    margin: 5vh auto 2vh;
+}
+.firstOfThreeListsBlock, .thirdOfThreeListsBlock {
+    width: 100vw;
+    background-color: #fcfcfc;
+}
+/* .firstOfThreeListsBlock > div, .secondOfThreeListsBlock > div, .thirdOfThreeListsBlock > div {
+    display: flex;
+    flex-direction: row;
+} */
+ .threeListsBlock > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .threeListsBlock > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 5vh;
+ }
+ .threeListsBlock > div > div > img {
+    width: 12.5vw;
+    height: 12.5vw;
+    margin-right: 3vw;
+ }
+ .threeListsBlock > div > div > div {
+    width: 50vw;
+ }
+ .threeListsBlock > div > div > div > div > div {
+    display: flex;
+    align-items: center;
+ }
+ .threeListsBlock > div > div > div > div > div > img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+ }
+ .threeListsBlock {
+    font-family: 'Exo 2';
+ }
+ .MainListsText {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 3vh;
+ }
+ .afterMainListsText {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 3vh;
+ }
+ .TLB_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    max-width: 90%;
+ }
+ .rightPartOfFlexList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+ }
+ .TLB_list > div {
+    margin-bottom: 1rem;
+ }
+ .secondAfterMainListsText {
+    margin-bottom: 5vh;
+ }
+ .TLB_list > div > div > span {
+    font-weight: bold;
+ }
