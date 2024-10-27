@@ -1,7 +1,7 @@
 .description {
     width: 100vw;
     height: auto;
-    background: linear-gradient(0deg, #8D60F1, #18467A);
+    background: linear-gradient(0deg, #8d60f1, #18467a);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -27,7 +27,7 @@ img {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
 }
 .info {
     display: flex;
@@ -69,7 +69,7 @@ img {
     align-items: center;
 }
 .keyElem {
-    color: #938BE9;
+    color: #938be9;
 }
 .childOfToDarkerBot {
     display: flex;
@@ -80,7 +80,7 @@ img {
     width: 4.5vh;
     height: 4.5vh;
 }
-img[alt='ComLogo'] {
+img[alt="ComLogo"] {
     width: 3vw;
     height: 5vh;
 }
@@ -110,7 +110,7 @@ img[alt='ComLogo'] {
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
 }
 .blockOfRequest * {
     margin-top: 5vh;
@@ -139,15 +139,15 @@ img[alt='ComLogo'] {
     width: 20vw;
     height: 7vh;
     font-size: 1.3rem;
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
     color: white;
     font-weight: 700;
-    background: linear-gradient(180deg, #8D60F1, #6c3cd9);
+    background: linear-gradient(180deg, #8d60f1, #6c3cd9);
     border: 0;
     border-radius: 3.5vh;
 }
 .buttonLeaveARequest:hover {
-    background: linear-gradient(180deg, #714dc1, #5630ae)
+    background: linear-gradient(180deg, #714dc1, #5630ae);
 }
 .buttonLeaveARequest:active {
     background: linear-gradient(180deg, #553a91, #412482);
@@ -158,7 +158,7 @@ img[alt='ComLogo'] {
     justify-content: space-evenly;
     height: 70%;
     max-width: 90%;
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
 }
 .commissionsList span {
     font-weight: bold;
@@ -177,12 +177,13 @@ img[alt='ComLogo'] {
     flex-direction: column;
     align-items: center;
 }
-.AutomationCommissionAndPartnersBlock img[alt='vidiGraph'], .AutomationCommissionAndPartnersBlock img[alt='companies'] {
+.AutomationCommissionAndPartnersBlock img[alt="vidiGraph"],
+.AutomationCommissionAndPartnersBlock img[alt="companies"] {
     width: 60vw;
     height: auto;
 }
 .AuCoPaBlockPartText {
-    font-family: 'Exo 2';
+    font-family: "Exo 2";
     font-size: 1.7rem;
     font-weight: bold;
     margin: 5vh auto;
@@ -209,7 +210,8 @@ img[alt='ComLogo'] {
 .commissionsListText {
     margin: 5vh auto 2vh;
 }
-.firstOfThreeListsBlock, .thirdOfThreeListsBlock {
+.firstOfThreeListsBlock,
+.thirdOfThreeListsBlock {
     width: 100vw;
     background-color: #fcfcfc;
 }
@@ -217,66 +219,119 @@ img[alt='ComLogo'] {
     display: flex;
     flex-direction: row;
 } */
- .threeListsBlock > div {
+.threeListsBlock > div {
     display: flex;
     flex-direction: column;
     align-items: center;
- }
- .threeListsBlock > div > div {
+}
+.threeListsBlock > div > div {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     margin-top: 5vh;
- }
- .threeListsBlock > div > div > img {
+}
+.threeListsBlock > div > div > img {
     width: 12.5vw;
     height: 12.5vw;
     margin-right: 3vw;
- }
- .threeListsBlock > div > div > div {
+}
+.threeListsBlock > div > div > div {
     width: 50vw;
- }
- .threeListsBlock > div > div > div > div > div {
+}
+.threeListsBlock > div > div > div > div > div {
     display: flex;
     align-items: center;
- }
- .threeListsBlock > div > div > div > div > div > img {
+}
+.threeListsBlock > div > div > div > div > div > img {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
- }
- .threeListsBlock {
-    font-family: 'Exo 2';
- }
- .MainListsText {
+}
+.threeListsBlock {
+    font-family: "Exo 2";
+}
+.MainListsText {
     font-weight: bold;
     font-size: 1.7rem;
     margin-bottom: 3vh;
- }
- .afterMainListsText {
+}
+.afterMainListsText {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 3vh;
- }
- .TLB_list {
+}
+.TLB_list {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 80%;
     max-width: 90%;
- }
- .rightPartOfFlexList {
+}
+.rightPartOfFlexList {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5vh;
- }
- .TLB_list > div {
+}
+.TLB_list > div {
     margin-bottom: 1rem;
- }
- .secondAfterMainListsText {
+}
+.secondAfterMainListsText {
     margin-bottom: 5vh;
- }
- .TLB_list > div > div > span {
+}
+.TLB_list > div > div > span {
     font-weight: bold;
- }
+}
+.TaxAgentBlock .background {
+    width: 100vw;
+    height: 25vw;
+    background: linear-gradient(3deg, #8d60f1 20%, #18467a 80%);
+    transform: skew(0, -3deg);
+    margin-top: -2.6vw;
+    /* box-shadow: -1px 1px 8px black; */
+    /* background-image: url(umgs/Union.png); */
+}
+.TaxAgentBlock {
+    overflow: hidden;
+    height: 25vw;
+    background-color: #fcfcfc;
+}
+.content {
+    color: white;
+    transform: translate(0, -22.4vw);
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.content .contentText {
+    margin-right: 10vw;
+    max-width: 25vw;
+    font-family: "Exo 2";
+}
+.contentText > div:first-child {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.contentText > div:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1vh auto 3vh;
+}
+.contentText > div:nth-child(4) {
+    margin-top: 3vh;
+}
+.content img[alt="programmer"] {
+    width: 25vw;
+    height: auto;
+}
+.content .contentList img {
+    width: 2vw;
+    height: auto;
+    margin-right: 1vw;
+}
+.content .contentList > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+    font-size: 1.2rem;
+}
