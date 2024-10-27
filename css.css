@@ -335,3 +335,347 @@ img[alt="ComLogo"] {
     margin-bottom: 2vh;
     font-size: 1.2rem;
 }
+header {
+    font-family: "Exo 2";
+}
+
+header img {
+    width: auto;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+.container {
+    max-width: 1240px;
+    padding-left: 50;
+    padding-right: 50;
+}
+
+.ul {
+    list-style: none;
+}
+
+.header_inner {
+    display: flex;
+    padding: 0 0%;
+    align-items: center;
+    min-height: 140px;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    gap: 0 65px;
+    border: solid 3px white;
+    margin-right: 1vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    /* padding: 25px; */
+    transform: skew(0, -0.5deg);
+    position: relative;
+    margin-top: -12vh;
+    /* padding: 0 0%; */
+}
+
+.footer-text {
+    /*Быстро Удобно Надежно*/
+    font-weight: 700;
+    text-align: center;
+    margin-right: 475px;
+    font-size: 40px;
+    color: Black;
+    margin-top: 60px;
+}
+
+.footer-item {
+    list-style: none;
+    width: 400px;
+    text-align: center;
+    margin: 0 260px;
+    line-height: 1.6;
+}
+
+.menu__link, .men1:hover {
+    display: flex;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.logo {
+    margin-left: 300px;
+    display: inline-block;
+}
+.footer1 {
+    display: flex;
+    margin-left: 280px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+.footer2 {
+    display: flex;
+    margin-left: 280px;
+    font-size: 20px;
+}
+.footer3 {
+    display: flex;
+    margin-left: 280px;
+    font-size: 20px;
+}
+
+.menu__list {
+    display: flex;
+    margin-right: 120px;
+    list-style: none;
+    padding: 0;
+    margin-left: 0 50px;
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.menu__link:hover {
+    background-color: rgba(255, 255, 255);
+    color: Black;
+    transition: opacity 0.3s ease;
+}
+.menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(-3deg);
+    z-index: -1;
+    background: linear-gradient(
+        to top,
+        rgba(141, 96, 241, 1),
+        rgba(20, 69, 118, 1)
+    );
+}
+
+.menu__item {
+    display: absolute;
+}
+
+.The-Credit {
+    display: inline-block block;
+    width: 100px;
+    height: auto;
+    margin-right: 33.5vw;
+    margin-left: auto;
+    max-width: 50%;
+    margin-top: -65vh;
+    z-index: 40;
+}
+
+.The-Credit img {
+    max-width: 40vw;
+    z-index: 500;
+    position: relative;
+}
+
+.stylesheet {
+    font-family: "Exo 2";
+}
+
+.menu__center-text {
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+}
+
+.Endless__item {
+    /* display: inline-block;
+    border-radius: 50px;
+    padding: 20px 60px; */
+    background: linear-gradient(
+        to top,
+        rgba(141, 96, 241, 1),
+        rgba(20, 69, 118, 1)
+    );
+    margin-left: 280px;
+    margin-top: 100px;
+}
+/* .Endless__link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+} */
+
+.Endless__item:hover {
+    background: linear-gradient(
+        to top,
+        rgba(113, 77, 193, 1),
+        rgba(16, 55, 94, 1)
+    );
+}
+
+.Endless__item:active {
+    background: linear-gradient(
+        to top,
+        rgba(85, 58, 145, 1),
+        rgba(12, 41, 71, 1)
+    );
+}
+
+/* .Endless__item:hover .Endless__link {
+    color: white;
+} */
+.header section:nth-child(3) {
+    background-color: #fcfcfc;
+    padding-top: 3vh;
+}
+.header section:last-child {
+    margin-bottom: 10vh;
+}
+.SecondFloor {
+    text-align: center;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: Black;
+    margin-top: 0vh;
+    margin-bottom: 3vh;
+}
+.icon-item1 {
+    display: inline-block block;
+    width: 100px;
+    height: auto;
+    margin-left: 250px;
+}
+
+.icon-item2 {
+    display: inline-block block;
+    width: 100px;
+    height: auto;
+    margin-left: 700px;
+    margin-top: -120px;
+}
+.icon-item3 {
+    display: inline-block \block;
+    width: 100px;
+    height: auto;
+    margin-left: 1100px;
+    margin-top: -120px;
+}
+
+.Num1 {
+    display: inline-block \block;
+    width: 100px;
+    height: auto;
+    margin-left: 185px;
+    margin-top: 80px;
+}
+
+.Num2 {
+    display: inline-block \block;
+    width: 100px;
+    height: auto;
+    margin-left: 580px;
+    margin-top: -65px;
+}
+.Num3 {
+    display: inline-block \block;
+    width: 100px;
+    height: auto;
+    margin-left: 1000px;
+    margin-top: -75px;
+}
+.About1 {
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.About1 {
+    width: 250px;
+    text-align: center;
+    margin-left: 245px;
+    font-size: 20px;
+    color: Black;
+    margin-top: -100px;
+}
+
+.About2 {
+    width: 250px;
+    text-align: center;
+    margin-left: 675px;
+    font-size: 20px;
+    color: Black;
+    margin-top: -170px;
+}
+
+.About3 {
+    width: 250px;
+    text-align: center;
+    margin-left: 1105px;
+    font-size: 20px;
+    color: Black;
+    margin-top: -260px;
+}
+.TheDuty {
+    text-align: center;
+    margin-left: 320px;
+    font-size: 30px;
+    font-weight: bold;
+    color: Black;
+    margin-top: -400px;
+}
+
+.CorrectYes1 {
+    margin-left: 675px;
+    margin-top: 20px;
+}
+.Dude img {
+    margin-left: 10vw;
+    margin-top: -10vh;
+}
+.TheDuty-Word1 {
+    text-align: center;
+    margin-left: 505px;
+    font-size: 20px;
+    color: Black;
+    margin-top: -285px;
+}
+.TheDuty-Word2 {
+    text-align: center;
+    margin-left: 480px;
+    font-size: 20px;
+    color: Black;
+    margin-top: 40px;
+}
+.TheDuty-Word3 {
+    text-align: center;
+    margin-left: 525px;
+    font-size: 20px;
+    color: Black;
+    margin-top: 40px;
+}
+.TheDuty-Word4 {
+    text-align: center;
+    margin-left: 345px;
+    font-size: 20px;
+    color: Black;
+    margin-top: 40px;
+}
+.TheDuty-Word5 {
+    text-align: center;
+    margin-left: 480px;
+    font-size: 20px;
+    color: Black;
+    margin-top: 40px;
+}
