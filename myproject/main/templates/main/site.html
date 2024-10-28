@@ -1,0 +1,28 @@
+{% extends 'main/index.html' %}
+{% load static %}
+
+{% block btnonename %}
+    {% if btnonename %}
+        {% for el in btnonename %}
+            {{ el.title }}
+        {% endfor %}
+    {% else %}
+        Консультация
+    {% endif %}
+{% endblock %}
+
+{% block imagewhich %}
+    {% if imagewhich %}
+        {% for el in whichimage %}
+            {{ el.image }}
+        {% endfor %}
+    {% else %}
+        <img
+        class="first-selection_image"
+        src="{% static 'imgs/Credit.png' %}"
+        alt="#"/>
+        <!-- {% for el in whichimage %}
+            {{ el.image }}
+        {% endfor %} -->
+    {% endif %}
+{% endblock %}

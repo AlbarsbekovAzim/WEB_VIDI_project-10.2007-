@@ -1,0 +1,442 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VIDI</title>
+        <link rel="stylesheet" href="{% static 'css.css' %}" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Exo 2"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="menu">
+                        <a class="logo" href="#">
+                            <img
+                                src="{% static 'imgs/GroupLog.png' %}"
+                                alt="Платёжный Сервис"
+                            />
+                        </a>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="/admin" class="menu__link men1"
+                                    >{% block btnonename %}{% endblock %}
+                                </a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link men2"
+                                    >Консультация</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="menu__center-text">Платёжный Сервис</div>
+                    </nav>
+                </div>
+            </div>
+            <section>
+                <div class="footer-text">Быстро. Удобно. Надежно.</div>
+                <div class="footer1">Полная автоматизация документооборота</div>
+                <div class="footer2">
+                    и массовых выплат между заказчиками и исполнителями
+                </div>
+                <div class="footer3">
+                    в финансовом секторе, без лишних затрат и загрузок.
+                </div>
+                <button class="buttonLeaveARequest Endless__item">
+                    ОСТАВИТЬ ЗАЯВКУ
+                </button>
+                <div class="The-Credit">
+                    {% block imagewhich %}{% endblock %}
+                </div>
+            </section>
+            <section>
+                <div class="SecondFloor">Как мы Работаем</div>
+                <div class="icon-item1">
+                    <img src="{% static 'imgs/Union.png' %}" alt="#"/>
+                </div>
+                <div class="icon-item2">
+                    <img src="{% static 'imgs/Union2.png' %}" alt="#"/>
+                </div>
+                <div class="icon-item3">
+                    <img src="{% static 'imgs/Union3.png' %}" alt="#"/>
+                </div>
+                <div class="Num1">
+                    <img src="{% static 'imgs/Num1.png' %}" alt="#"/>
+                </div>
+                <div class="Num2">
+                    <img src="{% static 'imgs/Num2.png '%}" alt="#"/>
+                </div>
+                <div class="Num3">
+                    <img src="{% static 'imgs/Num3.jpg' %}" alt="#"/>
+                </div>
+                <div class="About1">
+                    <p class="About_1">
+                        Максимально быстрое подключение и прохождение комплаенс
+                        в нашей системе
+                    </p>
+                </div>
+                <div class="About2">
+                    <p class="About_2">
+                        Мы открываем для вас специальный расчетный счет для
+                        полноценной работы с вашими клиентами, организуем по
+                        вашим запросам моментальные выплаты на банковские карты
+                        / электронные кошельки — легально и просто
+                    </p>
+                </div>
+                <div class="About3">
+                    <p class="About_3">
+                        Сервис позволяет вести бухгалтерию в простом виде для
+                        вашей компании. Возможность работать через корпоративный
+                        личный кабинет, проведение выплат путем загрузки
+                        реестров получателей в формате XLS или напрямую по
+                        выделенному API
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="Dude">
+                    <img src="{% static 'imgs/DudePc.png' %}" alt="#"/>
+                </div>
+                <div class="TheDuty">Мы берем на себя ответственность</div>
+                <div class="CorrectYes1">
+                    <img src="{% static 'imgs/CorrectYes.png' %}" alt="#"/>
+                </div>
+                <div class="CorrectYes1">
+                    <img src="{% static 'imgs/CorrectYes.png' %}" alt="#"/>
+                </div>
+                <div class="CorrectYes1">
+                    <img src="{% static 'imgs/CorrectYes.png' %}" alt="#"/>
+                </div>
+                <div class="CorrectYes1">
+                    <img src="{% static 'imgs/CorrectYes.png' %}" alt="#"/>
+                </div>
+                <div class="CorrectYes1">
+                    <img src="{% static 'imgs/CorrectYes.png' %}" alt="#"/>
+                </div>
+                <div class="TheDuty-Word1">
+                    Обеспечение автоматизации процессов для массовых выплат
+                </div>
+                <div class="TheDuty-Word2">
+                    Налоговое администрирование для физ. лиц и самозанятых
+                </div>
+                <div class="TheDuty-Word3">
+                    Налоговое администрирование для бизнеса и предпринимателей
+                </div>
+                <div class="TheDuty-Word4">
+                    Сопровождение и выпуск банковских карт
+                </div>
+                <div class="TheDuty-Word5">
+                    Документооборот для снятия нагрузки платежного агента
+                </div>
+            </section>
+        </header>
+        <div class="TaxAgentBlock">
+            <div class="background"></div>
+            <div class="content">
+                <div class="contentText">
+                    <div>Налоговый агент</div>
+                    <div>Снимаем обязательства перед ФНС</div>
+                    <div class="contentList">
+                        <div>
+                            <img src="{% static 'imgs/correct 1.png' %}  " alt=""/>
+                            <div>Для физических лиц 13% НДФЛ</div>
+                        </div>
+                        <div>
+                            <img src="{% static 'imgs/correct 1.png' %}  " alt=""/>
+                            <div>Для самозанятых 4% / 6% НДС</div>
+                        </div>
+                        <div>
+                            <img src="{% static 'imgs/correct 1.png' %}  " alt=""/>
+                            <div>
+                                Для юридических лиц 30% УСН по страховым взносам
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        Ведем прозрачную бухгалтерию для резидентов и не
+                        резидентов РФ. Комиссии и налоги учтены.
+                    </div>
+                </div>
+                <img src="{% static 'imgs/programmer.png' %} " alt="programmer"/>
+            </div>
+        </div>
+        <div class="threeListsBlock">
+            <div class="firstOfThreeListsBlock">
+                <div>
+                    <img src="{% static 'imgs/Group 329.png' %}" alt=""/>
+                    <div class="rightPartOfFlexList">
+                        <div class="MainListsText">Прием платежей</div>
+                        <div class="afterMainListsText">
+                            Обслуживание клиентов 24/7 — круглый год
+                        </div>
+                        <div class="secondAfterMainListsText">
+                            Подключение интернет эквайринга на входящие платежи
+                            для пополнения выделенного счета.
+                        </div>
+                        <div class="TLB_list">
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Получайте деньги от клиентов по всему миру
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Используйте автоматическое списание средств
+                                    для регулярных платежей и подписок
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Настройте систему оплаты с сервисом
+                                    токенезации в один клик
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Придумайте свой дизайн платежной формы и
+                                    встройте ее в сайт или мобильное приложение
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    В расчетах учтены комиссии со стороны
+                                    сервиса и возможные дополнительные налоги
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondOfThreeListsBlock">
+                <div>
+                    <img src="{% static 'imgs/wallet 1.png' %}" alt=""/>
+                    <div class="rightPartOfFlexList">
+                        <div class="MainListsText">
+                            Массовые выплаты онлайн/офлайн
+                        </div>
+                        <div class="TLB_list">
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Отправляйте средства клиентам и партнерам
+                                    моментально на любые платежные инструменты с
+                                    выделенного расчетного счета
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Проверяйте банковские карты перед отправкой
+                                    средств
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Используйте гибкую систему интеграций или
+                                    делайте выплаты вручную
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Получение наличных средств у наших партнёров
+                                    по паспорту
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thirdOfThreeListsBlock">
+                <div>
+                    <img src="{% static 'imgs/credit-card 2.png' %}" alt=""/>
+                    <div class="rightPartOfFlexList">
+                        <div class="MainListsText">
+                            Выпуск виртуальных банковских карт
+                        </div>
+                        <div class="TLB_list">
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Срок действия карты <span>4 года</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Полноценный <span>онлайн банк</span> для
+                                    клиента
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Возможность пополнения
+                                    <span>с карт от сторонних банков</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div><span>Обмен валют ₽/$/€</span></div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>Денежные переводы <span>Р2Р</span></div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Снятие средств
+                                    <span>в любом банкомате мира</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                                <div>
+                                    Наличие
+                                    <span>Apple Pay / GPay / Samsung Pay</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="AutomationCommissionAndPartnersBlock">
+            <div class="AuCoPaBlockPartText">
+                Автоматизация документооборота и выплат
+            </div>
+            <img
+                src="{% static 'imgs/ViDi_main_presentation-(2)_page-0002 2.png' %}"
+                alt="vidiGraph"
+            />
+            <div class="CommissionPartOfBlock">
+                <img src="{% static 'imgs/Group 324.png' %}"/>
+                <div>
+                    <div class="AuCoPaBlockPartText commissionsListText">
+                        Комиссия на ваших клиентах
+                    </div>
+                    <div class="commissionsList">
+                        <div>
+                            <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                            <div>Комиссия за подключение <span>0 ₽</span></div>
+                        </div>
+                        <div>
+                            <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                            <div>Холдирование средств <span>0 ₽</span></div>
+                        </div>
+                        <div>
+                            <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                            <div>
+                                Стоимость сервиса <span>0%</span> для компании
+                            </div>
+                        </div>
+                        <div>
+                            <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                            <div>
+                                Комиссию взимает ViDi в рамках специальной
+                                оферты на оказание услуг
+                                <span>в вашу пользу</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="{% static 'imgs/arrows 9.png' %}" alt=""/>
+                            <div>
+                                Возможность зарабатывать
+                                <span>дополнительный доход</span> от
+                                комиссионных сборов
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="AuCoPaBlockPartText">Наши партнеры</div>
+            <img src="{% static 'imgs/Group 332.png' %}" alt="companies"/>
+        </div>
+        <div class="blockOfRequest">
+            <div class="getConsultation">
+                ПОЛУЧИТЬ <span class="violetText">КОНСУЛЬТАЦИЮ</span>
+            </div>
+            <div class="descriptionOfConsultation">
+                Оставьте заявку и получите более детальную информацию для
+                подключения. Выгодные процентные ставки по обслуживанию для
+                резидентов и нерезидентов РФ.
+            </div>
+            <div class="workWithServices violetText">
+                Мы работаем с МФО / Кешбек сервисы / Игровые сервисы /
+                Партнёрские программы / Маркетплейсы
+            </div>
+            <button class="buttonLeaveARequest">ОСТАВИТЬ ЗАЯВКУ</button>
+        </div>
+        <footer class="footer">
+            <div class="description">
+                <h2 class="contacts">КОНТАКТЫ</h2>
+                <div class="aboutUs">
+                    <div class="boldOfAboutUs">
+                        Берём на себя все нагрузки платёжного агента.
+                    </div>
+                    <div>Ваш личный помощник в финансовом секторе.</div>
+                </div>
+                <div class="info">
+                    <div>
+                        <div class="footerElement">
+                            ООО «МКК ВИДИ» / «ViDi» LLC
+                        </div>
+                        <div id="location" class="footerElement">
+                            <img
+                                src="{% static 'imgs/Vector.png' %}"
+                                alt="geoLogo"
+                                id="geoLogo"
+                            />
+                            <div>Россия, г. Санкт-Петербург</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="display: flex">
+                            <div class="footerElement keyElem">ОГРН</div>
+                            <div class="footerElement">1197847153184</div>
+                        </div>
+                        <div style="display: flex">
+                            <div class="footerElement keyElem">ИНН</div>
+                            <div class="footerElement">7814761737</div>
+                        </div>
+                    </div>
+                    <div style="display: flex">
+                        <div class="footerElement keyElem">КПП</div>
+                        <div class="footerElement">781401001</div>
+                    </div>
+                </div>
+                <div class="toDarkerBot">
+                    <div class="childOfToDarkerBot">
+                        <div class="trioFooterToDarkerBot">
+                            <img
+                                src="{% static 'imgs/ViDi_main_presentation-(2)_page-0001 2.png' %}"
+                                alt="ComLogo"
+                            />
+                            <div class="lineInTrioFooter"></div>
+                            <div>Платежный сервис</div>
+                        </div>
+                        <div>vidi.pw</div>
+                    </div>
+                    <img
+                        src="{% static 'imgs/Group 284(PNG).png' %}"
+                        alt="logoArrow"
+                        class="arrowUpFooter"
+                    />
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
