@@ -5,5 +5,5 @@ from .models import btns, imgs
 
 def index(request):
     btn = btns.objects.all()[:1]
-    img = imgs.objects.all()
+    img = imgs.objects.last()
     return render(request, 'main/site.html', {'btnonename': btn, 'whichimage': img})

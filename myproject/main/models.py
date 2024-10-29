@@ -13,9 +13,6 @@ class btns(models.Model):
 
 class imgs(models.Model):
      image = models.ImageField('image instead of credit card')
-
-     def __img__(self, obj):
-          return self.image
             # return format_html('<img src="{self.image}" class = "first-selection_image" />'.format(obj.image.url))
      
      class Meta:

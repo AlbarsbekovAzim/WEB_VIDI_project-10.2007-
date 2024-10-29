@@ -12,17 +12,9 @@
 {% endblock %}
 
 {% block imagewhich %}
-    {% if imagewhich %}
-        {% for el in whichimage %}
-            {{ el.image }}
-        {% endfor %}
+    {% if whichimage %}
+        <img src="{{ whichimage.image.url }}" alt="programmer"/>
     {% else %}
-        <img
-        class="first-selection_image"
-        src="{% static 'imgs/Credit.png' %}"
-        alt="#"/>
-        <!-- {% for el in whichimage %}
-            {{ el.image }}
-        {% endfor %} -->
+        <img src="{% static 'imgs/programmer.png' %} " alt="programmer"/>
     {% endif %}
 {% endblock %}

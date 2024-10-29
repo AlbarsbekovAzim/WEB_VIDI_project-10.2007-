@@ -52,7 +52,10 @@
                     ОСТАВИТЬ ЗАЯВКУ
                 </button>
                 <div class="The-Credit">
-                    {% block imagewhich %}{% endblock %}
+                    <img
+                    class="first-selection_image"
+                    src="{% static 'imgs/Credit.png' %}"
+                    alt="#"/>
                 </div>
             </section>
             <section>
@@ -163,7 +166,7 @@
                         резидентов РФ. Комиссии и налоги учтены.
                     </div>
                 </div>
-                <img src="{% static 'imgs/programmer.png' %} " alt="programmer"/>
+                {% block imagewhich %}{% endblock %}
             </div>
         </div>
         <div class="threeListsBlock">
